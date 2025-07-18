@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: telegram-automarkdown-bot1
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
-    pythonVersion: 3.10
